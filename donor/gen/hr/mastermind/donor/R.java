@@ -8,6 +8,11 @@
 package hr.mastermind.donor;
 
 public final class R {
+    public static final class array {
+        public static final int blood_type_array=0x7f060002;
+        public static final int sex_array=0x7f060000;
+        public static final int year_array=0x7f060001;
+    }
     public static final class attr {
     }
     public static final class dimen {
@@ -23,37 +28,149 @@ public final class R {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
+        public static final int icon_clicked=0x7f020001;
+        public static final int icon_institution_main=0x7f020002;
+        public static final int icon_statistic_main=0x7f020003;
+        public static final int icon_statistic_profile=0x7f020004;
+        public static final int icon_statistic_settings=0x7f020005;
+        public static final int main_side=0x7f020006;
     }
     public static final class id {
-        public static final int action_settings=0x7f080000;
+        public static final int action_settings=0x7f090024;
+        public static final int login_btnLogin=0x7f090005;
+        public static final int login_btnRegister=0x7f090004;
+        public static final int login_lblEmail=0x7f090001;
+        public static final int login_lblPassword=0x7f090002;
+        public static final int login_lblResetPassword=0x7f090006;
+        public static final int login_txtEmail=0x7f090000;
+        public static final int login_txtPassword=0x7f090003;
+        public static final int pocetna_btnDonations=0x7f090009;
+        public static final int pocetna_btnInstitution=0x7f090008;
+        public static final int pocetna_btnSettings=0x7f09000c;
+        public static final int pocetni_btnProfile=0x7f09000b;
+        public static final int register_btnRegister=0x7f090020;
+        public static final int register_intWeight=0x7f090022;
+        public static final int register_lbiPassword2=0x7f090017;
+        public static final int register_lblBloodType=0x7f09001c;
+        public static final int register_lblEmail=0x7f09000f;
+        public static final int register_lblFirstName=0x7f090010;
+        public static final int register_lblLastName=0x7f090012;
+        public static final int register_lblPassword=0x7f09000e;
+        public static final int register_lblPhone=0x7f090019;
+        public static final int register_lblSex=0x7f09000d;
+        public static final int register_lblWeight=0x7f090021;
+        public static final int register_lblYear=0x7f09001f;
+        public static final int register_lblcCty=0x7f090018;
+        public static final int register_spnBloodType=0x7f09001d;
+        public static final int register_spnSex=0x7f09001e;
+        public static final int register_txtCity=0x7f09001b;
+        public static final int register_txtEmail=0x7f090013;
+        public static final int register_txtFirstName=0x7f090011;
+        public static final int register_txtLastName=0x7f090016;
+        public static final int register_txtPassword=0x7f090014;
+        public static final int register_txtPassword2=0x7f090015;
+        public static final int register_txtPhone=0x7f09001a;
+        public static final int register_txtYear=0x7f090023;
+        public static final int tableRow3=0x7f090007;
+        public static final int tableRow4=0x7f09000a;
     }
     public static final class layout {
-        public static final int activity_institution=0x7f030000;
-        public static final int activity_invite=0x7f030001;
-        public static final int activity_login=0x7f030002;
-        public static final int activity_main=0x7f030003;
-        public static final int activity_profile=0x7f030004;
-        public static final int activity_register=0x7f030005;
-        public static final int activity_settings=0x7f030006;
+        public static final int activity_donations=0x7f030000;
+        public static final int activity_institution=0x7f030001;
+        public static final int activity_invite=0x7f030002;
+        public static final int activity_login=0x7f030003;
+        public static final int activity_main=0x7f030004;
+        public static final int activity_profile=0x7f030005;
+        public static final int activity_register=0x7f030006;
+        public static final int activity_settings=0x7f030007;
     }
     public static final class menu {
-        public static final int institution=0x7f070000;
-        public static final int invite=0x7f070001;
-        public static final int login=0x7f070002;
-        public static final int main=0x7f070003;
-        public static final int profile=0x7f070004;
-        public static final int register=0x7f070005;
-        public static final int settings=0x7f070006;
+        public static final int donations=0x7f080000;
+        public static final int institution=0x7f080001;
+        public static final int invite=0x7f080002;
+        public static final int login=0x7f080003;
+        public static final int main=0x7f080004;
+        public static final int profile=0x7f080005;
+        public static final int register=0x7f080006;
+        public static final int reset=0x7f080007;
+        public static final int settings=0x7f080008;
     }
     public static final class string {
         public static final int action_settings=0x7f050002;
         public static final int app_name=0x7f050000;
         public static final int hello_world=0x7f050001;
+        public static final int login_btn_cancel=0x7f05000f;
+        public static final int login_btn_login=0x7f050014;
+        public static final int login_btn_register=0x7f050015;
+        public static final int login_email_example=0x7f050011;
+        public static final int login_lbl_email=0x7f050010;
+        public static final int login_lbl_pass=0x7f050013;
+        public static final int login_pass_example=0x7f050012;
+        public static final int login_reset_password=0x7f050016;
+        /**  activity_login 
+         */
+        public static final int login_title=0x7f05000e;
+        public static final int main_donations=0x7f05000d;
+        public static final int main_institution=0x7f05000c;
+        /**  activity_main 
+         */
+        public static final int main_logo=0x7f050009;
+        public static final int main_profile=0x7f05000a;
+        public static final int main_settings=0x7f05000b;
+        /**  activity_main 
+         */
+        public static final int main_title=0x7f050017;
+        /**  activity_profile Achievements 
+         */
+        public static final int profile_achievments_title=0x7f050034;
+        public static final int profile_city=0x7f050030;
+        public static final int profile_lbl_email=0x7f050029;
+        public static final int profile_lbl_firstName=0x7f05002b;
+        public static final int profile_lbl_lastName=0x7f05002c;
+        public static final int profile_lbl_password=0x7f05002a;
+        public static final int profile_lbl_picture=0x7f05002d;
+        public static final int profile_sickness=0x7f050031;
+        /**  activity_profile statistics 
+         */
+        public static final int profile_statistics_title=0x7f050033;
+        /**  activity_profile 
+         */
+        public static final int profile_title=0x7f050028;
+        public static final int profile_weight=0x7f05002e;
+        public static final int profile_year=0x7f05002f;
+        public static final int progile_sex=0x7f050032;
+        public static final int register_blood_type=0x7f050027;
+        public static final int register_cancel=0x7f050020;
+        public static final int register_city=0x7f050025;
+        public static final int register_lbl_email=0x7f050019;
+        public static final int register_lbl_firstName=0x7f05001c;
+        public static final int register_lbl_lastName=0x7f05001d;
+        public static final int register_lbl_password=0x7f05001a;
+        public static final int register_lbl_picture=0x7f05001e;
+        public static final int register_lbl_repeatePassword=0x7f05001b;
+        public static final int register_phone=0x7f050022;
+        public static final int register_register=0x7f05001f;
+        public static final int register_sickness=0x7f050026;
+        /**  activity_register 
+         */
+        public static final int register_title=0x7f050018;
+        public static final int register_weight=0x7f050021;
+        public static final int register_year=0x7f050024;
+        public static final int regsiter_sex=0x7f050023;
+        public static final int reset_email=0x7f050036;
+        public static final int reset_pogreska=0x7f050038;
+        public static final int reset_resetiraj=0x7f050037;
+        /**  activity_reset 
+         */
+        public static final int reset_title=0x7f050035;
+        public static final int reset_uspjeh=0x7f050039;
+        public static final int title_activity_donations=0x7f05003b;
         public static final int title_activity_institution=0x7f050006;
         public static final int title_activity_invite=0x7f050008;
         public static final int title_activity_login=0x7f050003;
         public static final int title_activity_profile=0x7f050005;
         public static final int title_activity_register=0x7f050004;
+        public static final int title_activity_reset=0x7f05003a;
         public static final int title_activity_settings=0x7f050007;
     }
     public static final class style {
@@ -78,10 +195,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
 }

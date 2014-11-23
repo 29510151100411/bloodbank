@@ -46,5 +46,14 @@
             android:name=".InviteActivity"
             android:label="@string/title_activity_invite" >
         </activity>
+        <activity
+            android:name=".ResetActivity"
+            android:label="@string/title_activity_reset" >
+        </activity>
+        <activity
+            android:name=".DonationsActivity"
+            android:label="@string/title_activity_donations" >
+        </activity>
     </application>
+
 </manifest>
